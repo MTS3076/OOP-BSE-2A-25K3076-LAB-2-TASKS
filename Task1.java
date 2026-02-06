@@ -39,7 +39,7 @@ public class Task1 {
                 choice = sc.next().charAt(0);
 
 
-            }while (choice == 'Y' ||  choice == 'y') ;
+            }while (choice != 'Y' &&  choice != 'y') ;
             sc.close();
             System.out.println("Program Terminated.");
     }
